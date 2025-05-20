@@ -1,0 +1,89 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold fs-4" routerLink="/">Arquitectura+</a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/">Inicio</a>
+        </li>
+
+        <!-- Dropdown Proyectos -->
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Proyectos
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item" routerLink="/proyectos/casa-rio">Casa del Río</a></li>
+            <li><a class="dropdown-item" routerLink="/proyectos/torre-aurora">Torre Aurora</a></li>
+            <li><a class="dropdown-item" routerLink="/proyectos/eco-barrio">Eco Barrio Norte</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" routerLink="/proyectos/todos">Ver todos los proyectos</a></li>
+          </ul>
+        </li>
+
+        <!-- Dropdown Servicios -->
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Servicios
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item" routerLink="/servicios/diseno">Diseño arquitectónico</a></li>
+            <li><a class="dropdown-item" routerLink="/servicios/planificacion">Planificación urbana</a></li>
+            <li><a class="dropdown-item" routerLink="/servicios/interiorismo">Interiorismo</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" routerLink="/servicios/personalizados">Servicios personalizados</a></li>
+          </ul>
+        </li>
+
+        <!-- Dropdown Contacto -->
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Contacto
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item" routerLink="/contacto/formulario">Formulario</a></li>
+            <li><a class="dropdown-item" routerLink="/contacto/ubicacion">Ubicación</a></li>
+            <li><a class="dropdown-item" routerLink="/contacto/redes">Redes sociales</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" routerLink="/contacto/soporte">Soporte técnico</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="btn btn-outline-light ms-lg-3 mt-2 mt-lg-0" routerLink="/login">Iniciar sesión</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
